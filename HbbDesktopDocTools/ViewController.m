@@ -88,7 +88,7 @@
         transformType = @"NSNumber";
     }else if ([orilType containsString:@"decimal"]){
         transformType = @"NSDecimalNumber";
-    }else if ([orilType containsString:@"datetime"]){
+    }else if ([orilType containsString:@"date"]){
         transformType = @"NSDate";
     }
     
@@ -119,7 +119,7 @@
         if (tr != [trs firstObject]) {
             LSProperty *property = [[LSProperty alloc] init];
             NSArray <TFHppleElement *> *tds = [tr children];
-            for (int i = 0; i < tds.count; i++) {
+            for (int i = 0; i < keyArray.count; i++) {
                 NSArray <TFHppleElement *> *spanArray = [tds[i] searchWithXPathQuery:@"//span"];
                 NSMutableString *contentString = [[NSMutableString alloc] init];
                 for (TFHppleElement *span in spanArray) {
