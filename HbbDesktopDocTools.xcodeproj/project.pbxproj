@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D750F25220FDD8CA0041504D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F25120FDD8CA0041504D /* AppDelegate.m */; };
+		D750F25520FDD8CA0041504D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F25420FDD8CA0041504D /* ViewController.m */; };
+		D750F25720FDD8D00041504D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D750F25620FDD8D00041504D /* Assets.xcassets */; };
+		D750F25A20FDD8D00041504D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D750F25820FDD8D00041504D /* Main.storyboard */; };
+		D750F25D20FDD8D00041504D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F25C20FDD8D00041504D /* main.m */; };
+		D750F26B20FDE7700041504D /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F26520FDE7700041504D /* TFHpple.m */; };
+		D750F26C20FDE7700041504D /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F26620FDE7700041504D /* TFHppleElement.m */; };
+		D750F26D20FDE7700041504D /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F26A20FDE7700041504D /* XPathQuery.m */; };
+		D750F27020FDE78A0041504D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D750F26F20FDE78A0041504D /* libxml2.2.tbd */; };
+		D750F27320FDECE40041504D /* LSProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D750F27220FDECE40041504D /* LSProperty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D750F24D20FDD8CA0041504D /* HbbDesktopDocTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HbbDesktopDocTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D750F25020FDD8CA0041504D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D750F25120FDD8CA0041504D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D750F25320FDD8CA0041504D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D750F25420FDD8CA0041504D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D750F25620FDD8D00041504D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D750F25920FDD8D00041504D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D750F25B20FDD8D00041504D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D750F25C20FDD8D00041504D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D750F25E20FDD8D00041504D /* HbbDesktopDocTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HbbDesktopDocTools.entitlements; sourceTree = "<group>"; };
+		D750F26520FDE7700041504D /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		D750F26620FDE7700041504D /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		D750F26720FDE7700041504D /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		D750F26820FDE7700041504D /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		D750F26920FDE7700041504D /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		D750F26A20FDE7700041504D /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		D750F26F20FDE78A0041504D /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		D750F27120FDECE40041504D /* LSProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSProperty.h; sourceTree = "<group>"; };
+		D750F27220FDECE40041504D /* LSProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSProperty.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D750F24A20FDD8CA0041504D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D750F27020FDE78A0041504D /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D750F24420FDD8CA0041504D = {
+			isa = PBXGroup;
+			children = (
+				D750F26420FDE75C0041504D /* TFHpple */,
+				D750F24F20FDD8CA0041504D /* HbbDesktopDocTools */,
+				D750F24E20FDD8CA0041504D /* Products */,
+				D750F26E20FDE7890041504D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D750F24E20FDD8CA0041504D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D750F24D20FDD8CA0041504D /* HbbDesktopDocTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D750F24F20FDD8CA0041504D /* HbbDesktopDocTools */ = {
+			isa = PBXGroup;
+			children = (
+				D750F25020FDD8CA0041504D /* AppDelegate.h */,
+				D750F25120FDD8CA0041504D /* AppDelegate.m */,
+				D750F25320FDD8CA0041504D /* ViewController.h */,
+				D750F25420FDD8CA0041504D /* ViewController.m */,
+				D750F25620FDD8D00041504D /* Assets.xcassets */,
+				D750F25820FDD8D00041504D /* Main.storyboard */,
+				D750F25B20FDD8D00041504D /* Info.plist */,
+				D750F25C20FDD8D00041504D /* main.m */,
+				D750F25E20FDD8D00041504D /* HbbDesktopDocTools.entitlements */,
+				D750F27120FDECE40041504D /* LSProperty.h */,
+				D750F27220FDECE40041504D /* LSProperty.m */,
+			);
+			path = HbbDesktopDocTools;
+			sourceTree = "<group>";
+		};
+		D750F26420FDE75C0041504D /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				D750F26720FDE7700041504D /* TFHpple.h */,
+				D750F26520FDE7700041504D /* TFHpple.m */,
+				D750F26920FDE7700041504D /* TFHppleElement.h */,
+				D750F26620FDE7700041504D /* TFHppleElement.m */,
+				D750F26820FDE7700041504D /* XPathQuery.h */,
+				D750F26A20FDE7700041504D /* XPathQuery.m */,
+			);
+			path = TFHpple;
+			sourceTree = "<group>";
+		};
+		D750F26E20FDE7890041504D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D750F26F20FDE78A0041504D /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D750F24C20FDD8CA0041504D /* HbbDesktopDocTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D750F26120FDD8D00041504D /* Build configuration list for PBXNativeTarget "HbbDesktopDocTools" */;
+			buildPhases = (
+				D750F24920FDD8CA0041504D /* Sources */,
+				D750F24A20FDD8CA0041504D /* Frameworks */,
+				D750F24B20FDD8CA0041504D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HbbDesktopDocTools;
+			productName = HbbDesktopDocTools;
+			productReference = D750F24D20FDD8CA0041504D /* HbbDesktopDocTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D750F24520FDD8CA0041504D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dev;
+				TargetAttributes = {
+					D750F24C20FDD8CA0041504D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D750F24820FDD8CA0041504D /* Build configuration list for PBXProject "HbbDesktopDocTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D750F24420FDD8CA0041504D;
+			productRefGroup = D750F24E20FDD8CA0041504D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D750F24C20FDD8CA0041504D /* HbbDesktopDocTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D750F24B20FDD8CA0041504D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D750F25720FDD8D00041504D /* Assets.xcassets in Resources */,
+				D750F25A20FDD8D00041504D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D750F24920FDD8CA0041504D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D750F25520FDD8CA0041504D /* ViewController.m in Sources */,
+				D750F25D20FDD8D00041504D /* main.m in Sources */,
+				D750F25220FDD8CA0041504D /* AppDelegate.m in Sources */,
+				D750F26B20FDE7700041504D /* TFHpple.m in Sources */,
+				D750F26D20FDE7700041504D /* XPathQuery.m in Sources */,
+				D750F26C20FDE7700041504D /* TFHppleElement.m in Sources */,
+				D750F27320FDECE40041504D /* LSProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D750F25820FDD8D00041504D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D750F25920FDD8D00041504D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D750F25F20FDD8D00041504D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D750F26020FDD8D00041504D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D750F26220FDD8D00041504D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HbbDesktopDocTools/HbbDesktopDocTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3BRR23J3QT;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = HbbDesktopDocTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsf.HbbDesktopDocTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D750F26320FDD8D00041504D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HbbDesktopDocTools/HbbDesktopDocTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3BRR23J3QT;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = HbbDesktopDocTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsf.HbbDesktopDocTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D750F24820FDD8CA0041504D /* Build configuration list for PBXProject "HbbDesktopDocTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D750F25F20FDD8D00041504D /* Debug */,
+				D750F26020FDD8D00041504D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D750F26120FDD8D00041504D /* Build configuration list for PBXNativeTarget "HbbDesktopDocTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D750F26220FDD8D00041504D /* Debug */,
+				D750F26320FDD8D00041504D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D750F24520FDD8CA0041504D /* Project object */;
+}
